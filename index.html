@@ -5,32 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Starbucks</title>
+    <title>Pokedex do Starbucks</title>
 </head>
 
 <body>
-    <img src="./img/logo.png" alt="" class="logo">
+    <img src="./img/pokebola.png" alt="" class="logo">
 
     <div class="conteudo">
 
         <div class="caixa-texto">
-            <h2>Não é só café é um <span>Starbucks</span></h2>
+            <h2>Não é só um pokemon é um <span>parceiro</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus accusantium corrupti quibusdam placeat
                 ducimus, doloremque sapiente fuga? Magnam ut, qui quam corporis, esse, eos harum earum veniam corrupti
                 sit impedit.</p>
-            <button>Deixe um like!!</button>
+            <button>Temos que pegar!!</button>
         </div>
 
         <div class="caixa-imagem">
-            <img src="./img/img1.png" alt="copo de verde" class="starcoffee">
+            <img src="./img/dwebble.png" alt="" class="banner">
         </div>
 
     </div>
 
     <div class="menu">
-        <img src="./img/img-pequena1.png" alt="" class="copo-p verde">
-        <img src="./img/img-pequena2.png" alt="" class="copo-p amarelo">
-        <img src="./img/img-pequena3.png" alt="" class="copo-p rosa">
+        <img src="./img/dwebble.png" alt="" class="icon dwebble">
+        <img src="./img/gourgeist.png" alt="" class="icon gourgeist">
+        <img src="./img/ninetales.png" alt="" class="icon ninetales">
     </div>
 
     <div class="circulo"></div>
@@ -40,22 +40,22 @@
 <script>
 
     let circulo=document.querySelector(".circulo")
-    let imgcopo=document.querySelector(".starcoffee")
-    let verde=document.querySelector(".verde")
-    let amarelo=document.querySelector(".amarelo")
-    let rosa=document.querySelector(".rosa")
+    let imgpokemon=document.querySelector(".banner")
+    let dwebble=document.querySelector(".dwebble")
+    let gourgeist=document.querySelector(".gourgeist")
+    let ninetales=document.querySelector(".ninetales")
 
-    verde.addEventListener("click", ()=>{
-         imgcopo.src="./img/img1.png"
-         circulo.style.background="#017143"
+    dwebble.addEventListener("click", ()=>{
+         imgpokemon.src="./img/dwebble.png"
+         circulo.style.background="#A6B91A"
     })
-    amarelo.addEventListener("click", ()=>{
-         imgcopo.src="./img/img2.png"
-         circulo.style.background="#f1fa8c"
+    gourgeist.addEventListener("click", ()=>{
+         imgpokemon.src="./img/gourgeist.png"
+         circulo.style.background="#735797"
     })
-    rosa.addEventListener("click", ()=>{
-         imgcopo.src="./img/img3.png"
-         circulo.style.background="#eb7495"
+    ninetales.addEventListener("click", ()=>{
+         imgpokemon.src="./img/ninetales.png"
+         circulo.style.background="#EE8130"
     })
 
 </script>

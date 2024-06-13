@@ -38,7 +38,7 @@ body{
 }
 
 button{
-    background-color: #017143;
+    background-color: #e4000f;
     color: #fff;
     border: none;
     border-radius: 20px;
@@ -52,7 +52,7 @@ h2{
 }
 
 span{
-    color: #017143;
+    color: #e4000f;
     font-size: 70px;
     font-weight: 900;
 }
@@ -67,25 +67,27 @@ p{
     width: 80px;
 }
 
-.starcoffee{
+.banner{
     width: 340px;
     z-index: 2;
 }
 
-.copo-p{
-    width: 80px;
+.icon{
+    width: 100px;
     cursor: pointer;
     transition: 1s;
+    display: flex;
+    align-items: end;
 }
 
-.copo-p:hover{
+.icon:hover{
     transform: translateY(-25px);
 }
 
 .circulo{
-    background: #017143;
+    background: #A6B91A;
     width: 100%;
-    height: 105%;
+    height: 100%;
     position: absolute;
     top:0;
     left: 0;
